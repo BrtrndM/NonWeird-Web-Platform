@@ -9,7 +9,7 @@ Contexte : Psychological science has become known as a “WEIRD” discipline. T
 
 Donneur d’ordre : présentation de la structure, du projet ou porteur de projet : The project will be led by the company “Mind-Science” (represented by Dr. Rick Klein, and supported by Dr. Hans IJzerman). Mind-Science is a Dutch company, but its representatives are currently in Grenoble. 
 
-Contacts : Rick Klein (raklein22@gmail.com) and Hans IJzerman (h.ijzerman@gmail.com). 
+Contacts : Rick Klein and Hans IJzerman. 
 
 Mission(s) confiée(s) : contexte et objectifs : 
 
