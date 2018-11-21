@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+    <title>NON WEIRD WEB APP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/myCss/login.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <header class="mb-auto">
+                <!-- As a link -->
+        <nav class="navbar navbar-light bg-primary">
+          <a class="navbar-brand text-white" href="#">Non WEIRD</a>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6"> 
+                <div class="card border-0 p-3">
+                    <nav>
+                        <!-- <div class="text-center p-3">YOU ARE</div> -->
+                        <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-part-tab" data-toggle="tab" href="#nav-part" role="tab" aria-controls="nav-part" aria-selected="true">Participant</a>
+                            <a class="nav-item nav-link" id="nav-res-tab" data-toggle="tab" href="#nav-res" role="tab" aria-controls="nav-res" aria-selected="false">Researcher</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-part" role="tabpanel" aria-labelledby="nav-part-tab">
+                            <form  id="needs-validation" class="mt-3 px-4 py-3" novalidate>               
+                                <div class="form-group row">
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>+33</option>
+                                                <option>+241</option>
+                                                <option>+1</option>
+                                            </select>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input type="phone" class="form-control" id="number" placeholder="Telephone Number">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-12">
+                                        <input type="phone" class="form-control" id="number" placeholder="Code Received by SMS">
+                                    </div>
+                                </div>                                
+                                <div class="form-group mt-5 row">
+                                    <div class="col-sm-12">
+                                        <a class="btn btn-primary col-sm-12" href="/pages/home-participant.html" role="button">Login</a>
+                                        <div class="d-flex justify-content-between pt-3">
+                                            <span>Forgot password? <a href="">recover</a></span>
+                                            <span><a href="pages/register-participant.html">Register</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>    
+                        </div>
+                        <div class="tab-pane fade" id="nav-res" role="tabpanel" aria-labelledby="nav-res-tab">
+                            <form  id="needs-validation" class="mt-3 px-4 py-3" novalidate>               
+                                <div class="form-group row">
+                                    <div class="col-sm-12">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="form-group row pt-3">
+                                    <div class="col-sm-12">
+                                        <input type="password" class="form-control" id="ShowPwdField" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-12">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1"  onclick="showPwd()">
+                                            <label class="custom-control-label" for="customCheck1">Show password</label>
+                                        </div>                      
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-12">
+                                        <a class="btn btn-primary col-sm-12" href="/pages/home-researcher.html" role="button">Login</a>
+                                        <div class="d-flex justify-content-between pt-3">
+                                            <span>Forgot password? <a href="">recover</a></span>
+                                            <span><a href="pages/register-researcher.html">Register</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div> 
+        </div>
+    </main>
+    <footer class="text-center fixed-bottom blockquote-footer">
+      <p>Copyright © NonWEIRD | All Rights Reserved</p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/vendor/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/myJs/login.js"></script>
+  </body>
+</html>

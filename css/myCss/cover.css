@@ -1,0 +1,23 @@
+
+
+html,
+body {
+  height: 100vh;
+  /*background-color: #f8f9fa!important;*/
+}
+body{
+  display: flex;
+  align-items: center;
+}
+.btn-blue-jm{
+	color: #fff !important;
+	background-color: #14245a !important;
+}
+.btn-yellow-jm{
+	color: #fff !important;
+	background-color: #fbbf17 !important;
+}
+.bg-blue-jm{
+	color: #fff !important;
+	background-color: #14245a !important;
+}

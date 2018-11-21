@@ -1,0 +1,40 @@
+/*This file contains all styles for JobMii Website
+
+By Bertrand Mounodunga 27.08.2018 12:14*/
+
+html,
+body {
+  height: 100vh;
+  background-color: #f8f9fa!important;
+}
+.btn-blue-jm{
+	color: #fff !important;
+	background-color: #14245a !important;
+}
+.btn-yellow-jm{
+	color: #212529;
+    background-color: #fbbf17;
+    border-color: #fbbf17;
+}
+.text-blue-jm{
+	color: #14245a !important;
+}
+.bg-blue-jm{
+	color: #fff !important;
+	background-color: #14245a !important;
+}
+.bg-yellow-jm{
+	background-color: #fbbf17 !important;
+}
+.jumbotron-bg-img{
+	background: url(../../img/bg-yellow.jpg) no-repeat fixed top;
+}
+.dropdown-toggle-nocaret::after {
+    display:none;
+}
+li.dropdowns-menu:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-item-menu:hover{
+	color: #14245a !important;
+}
