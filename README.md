@@ -16,7 +16,3 @@ Mission(s) confiée(s) : contexte et objectifs :
 End goal:
 To create a smartphone app where participants can answer questions, participate in experiments, and receive payment. We can rely on some existing software (e.g., ExperienceSampler, Qualtrics) to integrate questionnaires. From the user side, the app should be able to send notifications when new studies are presented. Users should also be able to be paid via PayPal. From the researcher side, we should be able to build in quality control (e.g., how often were participants studies accepted), it should be flexible in terms of language, security of data, but it should also be easy for researchers to retrieve the data from an online platform. In addition, we will want to keep track of average study time and average payment (so that participants are paid fairly).   
 
-Once the app is programmed and runs because of the programmers from fil rouge, then the programmers will get a 5% ownership in the app. The requirement for getting a 5% ownership is that the app works and that two first studies have been conducted on the app by outside researchers. 
-
-Compétences requises
-Experience programming in Python and Android. Preferably also some experience with deep/machine learning and data processing via GitHub. Willingness to program in other languages (e.g., Javascript, R). 
